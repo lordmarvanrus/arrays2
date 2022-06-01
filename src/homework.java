@@ -13,10 +13,10 @@ public class homework {
         int min = 1_000_000;
         System.out.println("2 задание");
         for (int i = 0; i < arr.length; i++) {
-                if (max < arr[i] - 1) {
+                if (max < arr[i]) {
                     max = arr[i];
                 }
-                if (min > arr[i] - 1) {
+                if (min > arr[i]) {
                     min = arr[i];
                 }
             }
@@ -32,11 +32,9 @@ public class homework {
         // 4 задание
         System.out.println("4 задание");
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        char letter = 'a';
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
             }
-
         }
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
